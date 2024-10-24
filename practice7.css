@@ -1,0 +1,12 @@
+
+.image
+{
+    background-color: aqua;
+    width: 50%;
+    border: 20px;
+    margin: 90px;
+    padding: 20px;
+    border: 30px;
+    border-image: 50px;
+    border-top: 50px;
+}
