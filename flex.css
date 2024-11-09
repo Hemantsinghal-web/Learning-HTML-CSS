@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.d1,.d2{
+    
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    padding: 20PX;
+    border-radius: 20%;
+    margin-top: 30px;
+}

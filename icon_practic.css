@@ -1,0 +1,37 @@
+.class1
+{
+    color: green;
+    font-size: 70px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    
+}
+.class2
+{
+    color: blue;
+    font-size: 70px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    
+}
+.class3
+{
+    color: royalpurple;
+    /* background-color: rgb(245, 150, 245); */
+    font-size: 70px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.class4
+{
+    color: black;
+    font-size: 70px;
+    background-color: yellow;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+.icon
+{
+    border: 2px solid;
+    border-radius: 20px;
+}
