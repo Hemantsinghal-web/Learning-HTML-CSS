@@ -1,0 +1,28 @@
+/* .container
+{
+    background-color: aquamarine;
+    height: 400px;
+    margin: 150;
+    margin-top: 150px;
+}
+.ch
+{
+    height: 200px;
+    width: 200px;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 30px;
+    position: absolute;
+    /* left: 50px; */
+    /* top: 50px;
+    right: 50px;
+} */ 
+img
+{
+    /* position :fixed;
+    top: 350px; */
+    /* down:50px; */
+    position: sticky;
+    top: 10px;
+    right: 100px;
+}
