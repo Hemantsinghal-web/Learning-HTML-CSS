@@ -1,0 +1,87 @@
+.con1
+{
+    height: 200px;
+    width: 200px;
+    background-color: teal;
+    border: 5px solid;
+    position: relative;
+    animation-name: demo;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+}
+/* @keyframes demo
+{
+    to{
+        left: 100%;
+        top: 500px;
+        /* bottom: 100px; */
+    
+    /* from
+    {
+        left: 0px;
+        top: 0px;
+    }
+} */
+@keyframes demo {
+    0%
+    {
+     top: 0px;
+     left: 0px;   
+
+    }   
+    50%
+    {
+        top: 0;
+        left: 600px;
+        background-color: aqua;
+        rotate: 180deg;
+        border-radius: 40%;
+    } 
+    100%
+    {
+        top: 400px;
+        left: 700px;
+        scale: 1.3;
+        border-radius: 50%;
+        border: none;
+        border-radius: 100%;
+    }
+}
+
+button
+{
+    margin: 50px;
+}
+
+button:hover{
+   
+    background-color: aqua;
+    border-radius: 30px;
+    padding: 30px;
+    animation-name: disco;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    
+}
+@keyframes disco{
+
+    0%{
+        box-shadow: 2px 2px 2px 4px blueviolet;
+        rotate: 45deg;
+    }
+    25%
+    {
+        box-shadow: 2px 2px 2px 4px red;
+    }
+    50%
+    {
+        box-shadow: 2px 2px 2px 4px yellow;
+        rotate: -45deg;
+    }
+    100%
+    {
+        box-shadow: 2px 2px 2px 4px green;
+    }
+}
