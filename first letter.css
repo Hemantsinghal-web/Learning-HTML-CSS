@@ -1,0 +1,27 @@
+#head1::first-letter
+{
+    font-size: 90px;
+    color: brown;
+}
+#head1::selection
+{
+    background-color: aquamarine;
+}
+p::first-line
+{
+    font-weight: bold;
+    /* color: aquamarine; */
+}
+p::first-letter
+{
+    font-size: 90px;
+}
+input::placeholder
+{
+    color: brown;
+}
+h1::before
+{
+    content: "Hemant ";
+    color: darkseagreen;
+}
