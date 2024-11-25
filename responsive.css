@@ -1,0 +1,35 @@
+body
+{
+    background-color: aquamarine;
+}
+.head
+{
+    font-size: 50px;
+}
+img{
+    width: 100%;
+}
+@media screen  and (min-width:400px) and (max-width:800px){
+    body
+    {
+        background-color: aqua;
+    }
+    .head
+    {
+        font-size: 20px;
+    }
+    img{
+        width: 50%;
+    }
+}
+/* @media screen  {
+    body
+    {
+        background-color: aqua;
+    }
+    .head
+    {
+        font-size: 20px;
+    }
+}
+@ */
